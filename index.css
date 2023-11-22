@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #dde;
+}
+
+#nav #logo {
+    cursor: pointer;
+}
+
+#nav #logo:hover {
+    color: #fff;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+button i {
+    font-size: 25px;
+}
+
+#sidebar {
+    height: 100%;
+    width: 35%;
+    max-width: 260px;
+    background-color: red;
+    padding: 12.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all ease 0.3s;
+    transform: translate(-100%, -100%);
+    z-index: 1;
+}
+
+#sidebar #top {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar #top #first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    padding: 5px;
+}
+
+#first #logo {
+    cursor: pointer;
+}
+
+#first #logo:hover {
+    color: #fff;
+}
+
+#first i {
+   font-size: 30px;
+   cursor: pointer;
+}
+
+#first i:hover {
+    color: #fff;
+}
+
+#sidebar #top #second {
+    display: flex;
+    flex-direction: column;
+    padding: 7.5px 5px;
+    gap: 12px;
+}
+
+#top #second h3 {
+    cursor: pointer;
+}
+
+#top #second h3:hover {
+    color: #fff;
+}
+
+#sidebar #bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bottom i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#bottom i:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
